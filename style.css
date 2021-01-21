@@ -2,4 +2,35 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-}
+  }
+
+  h1 {text-align: center}
+
+  #featured-property section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    width: 800px
+  }
+
+  figcaption { 
+    text-align: center;
+    font-size: 12px;
+  }
+
+  nav {text-align: center;}
+
+  nav  a {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(131, 86, 94)
+  }
+
+  #details div{
+    float: left;
+    background-color: rgb(168, 168, 248);
+    text-align: center;
+    width: 25%;
+  }
